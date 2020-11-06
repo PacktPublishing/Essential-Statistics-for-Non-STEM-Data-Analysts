@@ -1,0 +1,16 @@
+weight,high_oil_diet,smoking,stroke_risk
+low,yes,no,low
+low,no,yes,low
+high,yes,yes,high
+middle,no,no,low
+high,yes,yes,high
+high,no,yes,high
+low,yes,no,middle
+low,no,yes,low
+low,no,no,low
+middle,no,yes,high
+middle,no,no,low
+middle,yes,no,middle
+middle,no,yes,middle
+middle,yes,no,low
+middle,no,no,low
