@@ -9,7 +9,7 @@ This is the code repository for [Essential Statistics for Non-STEM Data Analysts
 ## What is this book about?
 Statistics remain the backbone of modern analysis tasks, helping you to interpret the results produced by data science pipelines. This book is a detailed guide covering the math and various statistical methods required for undertaking data science tasks.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features: 
 * Find out how to grab and load data into an analysis environment
 * Perform descriptive analysis to extract meaningful summaries from data
 * Discover probability, parameter estimation, hypothesis tests, and experiment design best practices
@@ -27,10 +27,9 @@ All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-if (test expression)
-{
-  Statement upon condition is true
-}
+import pandas as pd 
+df = pd.read_excel("PopulationEstimates.xls",skiprows=2) 
+df.head(8)  margin: 0
 ```
 
 **Following is what you need for this book:**
@@ -50,18 +49,14 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 
 ### Related products <Other books you may enjoy>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Practical Data Analysis Using Jupyter Notebook [[Packt]](https://www.packtpub.com/product/practical-data-analysis-using-jupyter-notebook/9781838826031) [[Amazon]](https://www.amazon.com/dp/1838826033)
 
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Hands-On Mathematics for Deep Learning [[Packt]](https://www.packtpub.com/product/hands-on-mathematics-for-deep-learning/9781838647292) [[Amazon]](https://www.amazon.com/dp/1838647295)
 
 ## Get to Know the Author(s)
 **Rongpeng Li**
 is a data science instructor and a senior data scientist at Galvanize, Inc. He has previously been a research programmer at Information Sciences Institute, working on knowledge graphs and artificial intelligence. He has also been the host and organizer of the Data Analysis Workshop Designed for Non-STEM Busy Professionals at LA.
 
-
-## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
