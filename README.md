@@ -6,6 +6,16 @@ This is the code repository for [Essential Statistics for Non-STEM Data Analysts
 
 **Get to grips with the statistics and math knowledge needed to enter the world of data science with Python**
 
+**Errata**
+Page 13
+section "Data Imputation"
+
+It lookss like as follows:
+    df2[columnName] = df2[columnName].apply(replace-question_mark)
+ 
+It should look like as follows: 
+    df2[columnName] = df2[columnName].apply(replace_question_mark)
+
 ## What is this book about?
 Statistics remain the backbone of modern analysis tasks, helping you to interpret the results produced by data science pipelines. This book is a detailed guide covering the math and various statistical methods required for undertaking data science tasks.
 
